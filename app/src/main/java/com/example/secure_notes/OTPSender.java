@@ -15,8 +15,8 @@ public class OTPSender {
 
     private static final String smtpHost = "smtp.gmail.com";
     private static final String smtpPort = "587";
-    private static final String senderEmail = "admir.rama@student.uni-pr.edu";
-    private static final String senderPassword = "bbpq madp nute bplj";
+    private static final String senderEmail = "email@example.com";
+    private static final String senderPassword = "app-pasword";
 
     public static boolean sendEmail(String email, String otp) {
         Properties properties = System.getProperties();
